@@ -1,0 +1,16 @@
+body {
+	background-image: url("./assets/images/bkg_grass_bn.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	/*background-position: center center;*/
+	background-attachment: fixed;
+	-webkit-background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-color: rgb(228,228,228);
+	margin-top: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
