@@ -1,10 +1,15 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import PageHeader from '../pageHeader/PageHeader';
+import Footer from '../footer/Footer';
 
 function Layout(props) {
   return(
-    <Fragment>
+    <Container>
+      <PageHeader />
       {props.children}
-    </Fragment>
+      <Footer />
+    </Container>
   )
 }
 
