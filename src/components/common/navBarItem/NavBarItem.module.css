@@ -1,0 +1,38 @@
+.navbarLight .navbarNav .navLink {
+	color: rgba(255,255,255,0.90);
+}
+
+.navbarLight .navbarNav .navLink:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,0.10);
+}
+
+.navbarLight .navbarNav .navLink:visited,
+.navbarLight .navbarNav .navLink:active {
+	color: rgba(255,255,255,0.90);
+}
+
+.navbarLight .navbarNav .active > .navLink {
+	background-color: rgba(27, 73, 157, 1); 
+	-webkit-background-color: rgba;
+	color: rgb(255,255,255);
+}
+
+@media (min-width: 768px) {
+
+  .navbarLight .navbarNav .navLink {
+		border-top: 3px solid rgba(255, 255, 255, 0.95);
+		border-bottom: 3px solid rgba(255, 255, 255, 0.95);
+		padding: 1.25vw;
+		font-size: 1.25vw;
+		margin-top: 1.5px;
+    padding-bottom: 1.3vw
+  }
+    
+  .navbarLight .navbarNav .active > .navLink {
+    border-top: 2px solid rgb(27, 73, 157);
+    border-bottom: 3px solid rgb(27, 73, 157);
+    padding: 1.35vw;
+    font-size: 1.25vw;
+  }
+}

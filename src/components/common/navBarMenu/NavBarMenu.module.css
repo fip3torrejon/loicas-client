@@ -1,0 +1,82 @@
+.navbarBrand {
+	font-family: 'Anton', sans-serif;
+	cursor: default;
+	font-size: 2.5vw;
+}
+
+.navbarLight .navbarBrand {
+	color: rgba(255,255,255,0.95);
+}
+
+.navbarLight .navbarNav .nav-link {
+	color: rgba(255,255,255,0.90);
+}
+
+.navbarLight .navbarBrand:hover {
+	color: rgba(255,255,255,0.95);
+}
+
+.navbarLight .navbarNav .nav-link:hover {
+	color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,0.10);
+}
+
+.navbarLight .navbarNav .nav-link:visited,
+.navbarLight .navbarNav .nav-link:active {
+	color: rgba(255,255,255,0.90);
+	
+}
+
+.navbarToggler {
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 50%;
+	padding: 0.33rem;
+}
+
+.navbarToggler.collapsed{
+	border: none;
+}
+
+a.navbarBrand,
+a.nav-link {
+	margin-bottom: 0px;
+}
+
+.navbarLight .navbarNav .active > .nav-link {
+	background-color: rgba(27, 73, 157, 1);
+	-webkit-background-color: rgba;
+	color: rgb(255,255,255);
+}
+
+@media (min-width: 768px) {
+
+  .navBar {
+		padding: 0.5em 1em 0 1em;
+	}
+
+	.navbarBrand {
+		border-top: 3px solid rgba(255, 255, 255, 0.95);
+		border-bottom: 3px solid rgba(255, 255, 255, 0.95);
+		margin-right: 0px;
+		padding-right: 5vw;
+		padding-left: 5px;
+	}
+
+	.navbarLight .navbarNav .nav-link {
+		border-top: 3px solid rgba(255, 255, 255, 0.95);
+		border-bottom: 3px solid rgba(255, 255, 255, 0.95);
+		padding: 1.25vw;
+		font-size: 1.25vw;
+		margin-top: 1.5px;
+		padding-bottom: 1.3vw
+	}
+
+	.navbarLight .navbarNav .active > .nav-link {
+		border-top: 2px solid rgb(27, 73, 157);
+		border-bottom: 3px solid rgb(27, 73, 157);
+		padding: 1.35vw;
+		font-size: 1.25vw;
+	}
+
+}
