@@ -3,7 +3,7 @@ import { Image } from 'react-bootstrap';
 
 function TitleImage(props){
   return(
-    <Image key={props.id} src={props.url} alt={props.alt} fluid/>
+    <Image key={props.id} src={props.src} alt={props.alt} fluid/>
   )
 }
 

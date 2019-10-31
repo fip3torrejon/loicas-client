@@ -8,12 +8,12 @@ class Portada extends Component {
     super(props);
     this.state={
       large:[
-        {id:0, url:"", alt:"foto de la izquierda"},
-        {id:1, url:"", alt:"foto del centro"},
-        {id:2, url:"", alt:"foto de la derecha"}
+        {id:0, url:"https://www.lasloicascricket.cl/img/title-1-thb-2019.jpg", alt:"foto de la izquierda"},
+        {id:1, url:"https://www.lasloicascricket.cl/img/title-4-thb-2019.jpg", alt:"foto del centro"},
+        {id:2, url:"https://www.lasloicascricket.cl/img/title-2-thb-2019.jpg", alt:"foto de la derecha"}
       ],
 
-      small:{id:3, url:"", alt:"foto portada"}
+      small:{id:3, url:"https://www.lasloicascricket.cl/img/2019.jpg", alt:"foto portada"}
     }
   }
   render(){
