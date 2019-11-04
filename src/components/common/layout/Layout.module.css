@@ -1,0 +1,21 @@
+@media (min-width: 768px){
+	.container {
+		padding-right: 50px;
+		padding-left: 50px;
+		-webkit-padding-end: 0px;
+		-webkit-padding-start: 0px;
+		-moz-padding-right: 50px;
+		-moz-padding-left: 50px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		padding-right: 100px;
+		padding-left: 100px;
+		-webkit-padding-end: 0px;
+		-webkit-padding-start: 0px;
+		-moz-padding-right: 100px;
+		-moz-padding-left: 100px;
+	}
+}

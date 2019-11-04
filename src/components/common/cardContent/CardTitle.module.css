@@ -1,0 +1,19 @@
+.cardTitle {
+	font-size: 1.75em;
+	padding: 10px;
+	color: rgba(255,255,255,1.0);
+}
+
+.cardTitleOdd {
+	background-color: rgb(235, 50, 45);
+}
+
+.cardTitleEven {
+	background-color: rgb(27, 73, 157);
+}
+
+.cardTitleTop {
+	background-color: transparent;
+	color: rgb(27, 73, 157);
+	padding: 0;
+}

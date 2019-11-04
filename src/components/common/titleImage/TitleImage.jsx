@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
+import { Image, Col } from 'react-bootstrap';
+
+import styles from './TitleImage.module.css';
 
 function TitleImage(props){
   return(
-    <Image key={props.id} src={props.src} alt={props.alt} fluid/>
+    <Col className={styles.titleImage}>
+      <Image key={props.id} src={props.src} alt={props.alt} fluid/>
+    </Col>
   )
 }
 

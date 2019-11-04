@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Row, Col } from 'react-bootstrap';
 import TitleImage from '../titleImage/TitleImage.jsx';
 
+import styles from './Portada.module.css';
+
 class Portada extends Component {
 
   constructor(props){
@@ -18,13 +20,13 @@ class Portada extends Component {
   }
   render(){
     return(
-      <Row>
-        <Col className="d-sm-none">
+      <Row >
+        <Col xs={12} className={styles.portada + " d-sm-none"}>
           {
             <TitleImage src={this.state.small.url} alt={this.state.small.alt} />
           }
         </Col>
-        <Col className="d-none d-sm-flex">
+        <Col className={styles.portada + " d-none d-sm-flex justify-content-between"}>
           {
             this.state.large.map((imagen) => {
               return(

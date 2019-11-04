@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
-import './App.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.module.css';
 
 import Layout from './components/common/layout/Layout'
 
