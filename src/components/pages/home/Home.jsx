@@ -22,15 +22,18 @@ class Home extends Component {
           </CardContent>
         </Col>
         <Col xs={12} md={4}>
-          <CardContent title="FELICITACIONES" position="topCard">
+          <CardContent title="FELICITACIONES" position="topCard" right>
             <Image src="https://www.lasloicascricket.cl/img/sac_peru.png" fluid />
             <span>TERCER LUGAR</span>
           </CardContent>
-          <CardContent position="1">
-            <Image src="https://www.lasloicascricket.cl/img/gif-jockey-chapita.gif" fluid/>
+          <CardContent position="1" right banner>
+            <a href="https://www.facebook.com/lasloicas/videos/658730371280162/">
+              <Image src="https://www.lasloicascricket.cl/img/gif-jockey-chapita.gif" fluid className="d-none d-sm-flex"/>
+              <Image src="https://www.lasloicascricket.cl/img/gif-jockey-chapita-sm.gif" fluid className="d-sm-none"/>
+            </a>
           </CardContent>
-          <CardContent title="REDES SOCIALES" position="2">
-          <TwitterTimelineEmbed sourceType="profile" screenName="lasloicaschile" options={{height:400}}></TwitterTimelineEmbed>
+          <CardContent title="REDES SOCIALES" position="2" right social>
+            <TwitterTimelineEmbed sourceType="profile" screenName="lasloicaschile" options={{height:400}}></TwitterTimelineEmbed>
           </CardContent>
         </Col>
       </Row>

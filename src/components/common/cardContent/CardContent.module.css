@@ -12,3 +12,12 @@
 	background-color: white;
 	padding: 25px;
 }
+
+.banner {
+	background-color: rgb(235, 50, 45);
+	padding-bottom: 15px;
+}
+
+.social {
+	padding: 0;
+}
