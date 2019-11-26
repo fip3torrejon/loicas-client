@@ -1,0 +1,22 @@
+.rsButton {
+  font-size: 2vw;
+}
+
+.rsButtonIcon {
+	color: rgba(255, 255, 255, 0.85);
+	text-decoration: 0;
+}
+
+.rsButtonIcon:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+.rsButtonLink:active {
+	border: none;
+}
+
+@media (max-width: 767px) {
+  .rsButton {
+		font-size: 2rem;
+  }
+}

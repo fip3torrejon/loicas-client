@@ -1,0 +1,13 @@
+.bottomBar {
+	background-color: rgb(27, 73, 157);
+	padding: 25px 15px;
+	font-size: 1.25vw;
+	color: rgba(255, 255, 255, 0.95);
+}
+
+@media (max-width: 767px) {
+  .bottomBar {
+		padding: 5px 15px;
+		font-size: 1.25rem;
+  }
+}
